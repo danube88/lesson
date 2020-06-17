@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: #f9f9f9;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container{
+  width: 70%;
+  margin: auto;
+  margin-top: 5%;
+  padding: 20px;
+  text-align: justify;
+}
+
+.container h1{
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.container h3{
+  font-size: 24px;
+  text-align: center;
+}
+
+.container p{
+  color: #555;
+  line-height: 1.5;
+  word-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+ul {
+    padding: 30px 0px 0px 24px;
+}
+
+li {
+    padding: 10px 0px;
+}
+
+.exit a{
+  color: #746bd6;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  transition: all .3s linear;
+}
+
+.exit a:hover{
+  color: #222;
+}
+
+.exit a:before, .exit a:after{
+  content: '';
+  background: #e74c3c;
+  position: absolute;
+  width: 0;
+  height: 2px;
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  transition: all .3s linear;
+}
+
+.exit a:before{
+  top: 0;
+  left: 0;
+}
+
+.exit a:after{
+  top: 100%;
+  right: 0;
+}
+
+.exit a:hover:before, .exit a:hover:after{
+  width: 100%;
+}
+
+button {
+  padding: 10px 0;
+  border-width: 0;
+  display: block;
+  width: 120px;
+  margin: 25px auto 0;
+  background: #60e6c5;
+  color: white;
+  font-size: 14px;
+  outline: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+input {
+  border-width: 0;
+  outline: none;
+  margin: 0;
+  width: 25%;
+  padding: 10px 15px;
+  background: #e6e6e6;
+}
+input:focus {
+  box-shadow: inset 0 0 0 2px rgba(0,0,0,.2);
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
