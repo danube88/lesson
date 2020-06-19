@@ -2,8 +2,8 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="lessons_on_php/css/style.css" />
-        <link rel="stylesheet" href="lessons_on_php/css/style-link.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/style-link.css" />
         <title>Completed Lessons</title>
     </head>
     <body>
