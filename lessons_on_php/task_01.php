@@ -20,7 +20,7 @@
             <div>
                 <form method="post">
                     <label>Число:</label>
-                    <input type="number" name="number"/>
+                    <input type="number" name="number" value="123"/>
                     <button name="form">Рассчитать</button>
                 </form>
             </div>

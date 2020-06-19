@@ -20,9 +20,9 @@
             <div>
                 <form method="post">
                     <label>Число:</label>
-                    <input type="number" name="number"/>
+                    <input type="number" name="number" value="442158755745"/>
                     <label>Цифра:</label>
-                    <input type="number" name="var"/>
+                    <input type="number" name="var" value="5"/>
                     <button name="form">Рассчитать</button>
                 </form>
             </div>
