@@ -1,0 +1,15 @@
+span::after{
+  content: ' ';
+  display: inline-block;
+  position: relative;
+  top:-14px;
+  left: -38px;
+  width: 43px;
+  height: 1px;
+  background-color: black;
+  margin-right: -37px
+}
+
+.older {
+  width: 75%;
+}
