@@ -298,7 +298,7 @@
                         max<sup>2</sup>($x,$y,$z)−3<sup>x</sup>*min($x,$y,$z)
                     </span>
                     <span class=\"fra\" id='denominator' style=\"margin-left: -187px;\">
-                        sin1+max($x,$y\−$z)/min($y,$z)
+                        sin1+max($x,".$y."−$z)/min($y,$z)
                     </span>
                 </span> = $res</p>";
             ?>
