@@ -1,15 +1,39 @@
 span::after{
-  content: ' ';
-  display: inline-block;
-  position: relative;
-  top:-14px;
-  left: -38px;
-  width: 43px;
-  height: 1px;
-  background-color: black;
-  margin-right: -37px
+    content: ' ';
+    display: inline-block;
+    position: relative;
+    top:-14px;
+    left: -38px;
+    width: 43px;
+    height: 1px;
+    background-color: black;
+    margin-right: -37px
+}
+
+span.simple::after{
+    content: ' ';
+    display: inline-block;
+    position: relative;
+    top:-14px;
+    left: -48px;
+    width: 47px;
+    height: 1px;
+    background-color: black;
+    margin-right: -47px
+}
+
+span.cond::after{
+    content: ' ';
+    display: inline-block;
+    position: relative;
+    top:-14px;
+    left: -22px;
+    width: 28px;
+    height: 1px;
+    background-color: black;
+    margin-right: -23px
 }
 
 .older {
-  width: 75%;
+    width: 75%;
 }
