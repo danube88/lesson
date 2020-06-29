@@ -259,6 +259,49 @@
                 echo "<b>Решение</b></br>";
                 echo "$res</p>";
             ?>
+            <p>
+                11) Вычислите значение выражения<b><span class="fra" id='fraction'>
+                    <span class="fra" id='numerator'>
+                        max<sup>2</sup>(x,y,z)−3<sup>x</sup>*min(x,y,z)
+                    </span>
+                    <span class="fra" id='denominator' style="margin-left: -188px;">
+                        sin1+max(x,y−z)/min(y,z)
+                    </span>
+                </span></b>. Если вычисление невозможно, то сообщите об этом пользователю..
+            </p>
+            <?php
+                $x = rand(-9,9);
+                $y = rand(-9,9);
+                $z = rand(-9,9);
+
+                echo "<p><b>Дано:</b></br>";
+                echo "x = $x</br>";
+                echo "y = $y</br>";
+                echo "z = $z</br>";
+                echo "<b>Решение</b></br></br>";
+
+                if ($y == 0 || $z == 0) {
+                    $res = "Error del 0";
+                } else {
+                    $res0 = sin(1)+(max($x,$y-$z)/min($y,$z));
+
+                    if ($res0 != 0) {
+                        $res1 = (max($x,$y,$z)**2)-(3**$x)*min($x,$y,$z);
+                        $res = $res1/$res0;
+                    } else {
+                        $res = "Error del 0";
+                    }
+                }
+
+                echo "<span class=\"fra\" id='fraction'>
+                    <span class=\"fra\" id='numerator'>
+                        max<sup>2</sup>($x,$y,$z)−3<sup>x</sup>*min($x,$y,$z)
+                    </span>
+                    <span class=\"fra\" id='denominator' style=\"margin-left: -187px;\">
+                        sin1+max($x,$y\−$z)/min($y,$z)
+                    </span>
+                </span> = $res</p>";
+            ?>
         </div>
     </body>
 </html>
